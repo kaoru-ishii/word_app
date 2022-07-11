@@ -1,0 +1,78 @@
+.home-main {
+    text-align: center;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.body-form {
+    width: 50%;
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.write-btn {
+    display: block;
+    background-color: #FCACAC;
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.lists {
+    width: 50%;
+    margin: auto;
+}
+
+.lists .item {
+    min-height: 100px;
+    margin: 20px 0px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lists .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.lists .name {
+    font-weight: bold;
+}
+
+.lists .date {
+    font-size: 1.4rem;
+}
+
+.lists .post {
+    font-size: 1.6rem;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* 削除ボタン */
+.lists .meta-left {
+    display: flex;
+    align-items: center;
+}
+
+.delete-btn {
+    margin-right: auto;
+    margin-left: 14px;
+    padding: 4px 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f96262;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
